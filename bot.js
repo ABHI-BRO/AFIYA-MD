@@ -101,8 +101,8 @@ async function Xasena() {
           require(__dirname + "/plugins/" + plugin);
         }
       });
-      console.log("connected!");
-      let str = `\`\`\`afiya-bot connected \nversion : ${
+      console.log("✅ Plugins Installed!");
+      let str = `\`\`\`afiya connected \nversion : ${
         require(__dirname + "/package.json").version
       }\nTotal Plugins : ${events.commands.length}\nWorktype: ${
         config.WORK_TYPE
