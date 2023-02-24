@@ -74,7 +74,7 @@ const { state, saveCreds } = await useMultiFileAuthState(
     const { connection, lastDisconnect } = s;
     if (connection === "connecting") {
       console.log("Toxic Leo MD");
-      console.log(" ♻ Toxic leo Connecting to WhatsApp... Please Wait. ");
+      console.log(" ♻ Afiya Connecting to WhatsApp... Please Wait. ");
     }
 
     if (
@@ -114,7 +114,7 @@ const { state, saveCreds } = await useMultiFileAuthState(
         }
       });
       console.log(" Plugins Installed! ");
-      let str = `\`\`\` *ʟᴇᴏ ᴍᴅ sᴛᴀʀᴛᴇᴅ* \nversion : ${
+      let str = `\`\`\` *ᴀғɪʏᴀ ᴍᴅ sᴛᴀʀᴛᴇᴅ* \nversion : ${
         require("./package.json").version
       }\nTotal Plugins : ${events.commands.length}\nMode: ${
         config.WORK_TYPE
