@@ -37,6 +37,7 @@
     "@neeraj-x0/textpro": "^1.0.3",
     "awesome-phonenumber": "^3.4.0",
     "bitly": "^7.1.2",
+    "aes256": "^1.1.0",
     "browser-id3-writer": "^4.4.0",
     "crypto-js": "^4.1.1",
     "dotenv": "^16.0.0",
